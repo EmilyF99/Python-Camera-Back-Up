@@ -9,10 +9,17 @@ from tkinter import ttk
 
 videoPath1 = 'nv232.MOV'
 # video1 = motion.motion_detection(videoPath1)
+
+# Raw Videos
 video1 = videoPath1
 video2 = videoPath1
 video3 = videoPath1
 video4 = videoPath1
+
+MDVideo1 = motion.motion_detection(videoPath1)
+MDVideo2 =  motion.motion_detection(videoPath1)
+MDVideo3 =  motion.motion_detection(videoPath1)
+MDVideo4 =  motion.motion_detection(videoPath1)
 
 root = tk.Tk()
 root.title("Warehouse Security Camera")
