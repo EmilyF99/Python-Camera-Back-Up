@@ -66,7 +66,8 @@ def motion_detection(video):
 
         # creating a new video with bbox on each frame
     video_with_detection = draw_bbox(frame, bbox, label, conf)
-
+    
+    #Returns to main class so it can be applied to video sources
     return video_with_detection
 
 
