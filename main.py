@@ -76,22 +76,22 @@ MDLabel = tk.Label(tab2, text="Motion Detection")
 
 MDSource1Pos = tk.Label(tab2, text="Source 1")
 MDSource1Lb = tk.Label(tab2, text="Source 1")
-MDSource1 = tkvideo(video1, MDSource1Pos, size=(300, 150))
+MDSource1 = tkvideo(MDVideo1, MDSource1Pos, size=(300, 150))
 MDSource1.play()
 
 MDSource2Pos = tk.Label(tab2, text="Source 2")
 MDSource2Lb = tk.Label(tab2, text="Source 2")
-MDSource2 = tkvideo(video2, MDSource2Pos, size=(300, 150))
+MDSource2 = tkvideo(MDVideo2, MDSource2Pos, size=(300, 150))
 MDSource2.play()
 
 MDSource3Pos = tk.Label(tab2, text="Source 3")
 MDSource3Lb = tk.Label(tab2, text="Source 3")
-MDSource3 = tkvideo(video3, MDSource3Pos, size=(300, 150))
+MDSource3 = tkvideo(MDVideo3, MDSource3Pos, size=(300, 150))
 MDSource3.play()
 
 MDSource4Pos = tk.Label(tab2, text="Source 4")
 MDSource4Lb = tk.Label(tab2, text="Source 4")
-MDSource4 = tkvideo(video4, MDSource4Pos, size=(300, 150))
+MDSource4 = tkvideo(MDVideo4, MDSource4Pos, size=(300, 150))
 MDSource4.play()
 
 MDactionLogLb = tk.Label(tab2, text="Action Log")
@@ -109,7 +109,7 @@ MDSource4Pos.grid(row=4, column=1)
 MDactionLogLb.grid(row=5, column=0)
 MDactionLog.grid(row=6, column=0, columnspan=2, sticky=tk.W+tk.E)
 
-
+#Save Motion tab
 SMLabel = tk.Label(tab3, text="Saved Motion")
 myLabel14 = tk.Label(tab3, text="Scroll Box")
 
